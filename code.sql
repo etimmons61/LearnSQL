@@ -203,3 +203,7 @@ WITH purchasers AS (
 SELECT ft.utm_campaign AS 'FT Campaign', COUNT(ft.user_id) AS 'Retargetted Purchasers'
 FROM first_touch ft
 GROUP BY ft.utm_campaign;
+
+/*Added simple query for testing git */
+SELECT * 
+FROM page_visits;
